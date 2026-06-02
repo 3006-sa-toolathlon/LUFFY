@@ -141,7 +141,7 @@ LUFFY/
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_4_2/arg_utils.py:192** - (woosuk): Support fine-grained seeds (e.g., seed per request).
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_4_2/arg_utils.py:257** - spec config
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_4_2/config.py:136** - for multimodal model
-- [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_4_2/hf_weight_loader.py:81** - vllm_model.load_weights(actor_weights.items())
+- [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_4_2/hf_weight_loader.py:81** - TODO
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_4_2/llm.py:268** - (shengguangming): maybe we can hack the autoregressive logics without only apply post process for better performance
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_4_2/llm.py:272** - (sgm): we can optimize it by making the dataloader yield List[int] without padding.
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_4_2/llm.py:288** - (shengguangming): can be optimzied by rewrite the Sampler._get_logprobs() logits
@@ -263,7 +263,7 @@ LUFFY/
 - [ ] **luffy/verl/verl/trainer/ppo/ray_trainer.py:880** - make a canonical logger that supports various backend
 - [ ] **luffy/verl/verl/utils/checkpoint/fsdp_checkpoint_manager.py:101** - shall we remove previous ckpt every save?
 - [ ] **luffy/verl/verl/utils/checkpoint/fsdp_checkpoint_manager.py:135** - address optimizer is None
-- [ ] **luffy/verl/verl/utils/hdfs_io.py:67** - (haibin.lin): handle OSError for hdfs(?); support exist_ok for hdfs(?); _mkdir(name, **kwargs)
+- [ ] **luffy/verl/verl/utils/hdfs_io.py:67** - (haibin.lin): handle OSError for hdfs(?); support exist_ok for hdfs(?)
 - [ ] **luffy/verl/verl/utils/hdfs_io.py:102** - (haibin.lin): handle SameFileError for hdfs files(?); return file destination for hdfs files
 - [ ] **luffy/verl/verl/utils/megatron/tensor_parallel.py:137** - (zhangchi.usc1992): We may change the implementation later
 - [ ] **luffy/verl/verl/utils/megatron_utils.py:202** - (sgm): check how to disable megatron timers
